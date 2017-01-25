@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{378161AA-219B-4470-9339-7D5DC803E4E0}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		TwoStepsAuthenticator.nuspec = TwoStepsAuthenticator.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoStepsAuthenticator.NETStandard", "src\TwoStepsAuthenticator.NETStandard\TwoStepsAuthenticator.NETStandard.csproj", "{D268F0D9-8DE3-4DBE-9D6B-C7628A173975}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoStepsAuthenticator.NETStandard.UnitTests", "test\TwoStepsAuthenticator.NETStandard.UnitTests\TwoStepsAuthenticator.NETStandard.UnitTests.csproj", "{0EEFC873-8799-411A-B937-2F1FB6BF67C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D268F0D9-8DE3-4DBE-9D6B-C7628A173975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D268F0D9-8DE3-4DBE-9D6B-C7628A173975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D268F0D9-8DE3-4DBE-9D6B-C7628A173975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D268F0D9-8DE3-4DBE-9D6B-C7628A173975}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEFC873-8799-411A-B937-2F1FB6BF67C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEFC873-8799-411A-B937-2F1FB6BF67C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEFC873-8799-411A-B937-2F1FB6BF67C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEFC873-8799-411A-B937-2F1FB6BF67C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
